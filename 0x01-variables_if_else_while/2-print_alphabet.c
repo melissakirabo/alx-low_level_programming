@@ -4,10 +4,11 @@
 int main()
 {
     int x;
+    string s = " ";
     for(x = 'A'; x <= 'Z'; x++)
     {
         putchar(tolower(x));
-        putchar("");
+        putchar(s);
     }
     return 0;
 }
