@@ -3,7 +3,7 @@
 
 int main()
 {
-    int x;     
+    char x;     
     for(x = 0; x < 10; x++)
     {         
         putchar('x'); 
