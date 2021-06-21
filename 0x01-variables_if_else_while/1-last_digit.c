@@ -6,13 +6,13 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	
-	
+	int n = 0;
+	int last = n % 10;	
 
 	srand(time(0));
-	int n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	int last = n % 10;
+	
 	
 	
 	
