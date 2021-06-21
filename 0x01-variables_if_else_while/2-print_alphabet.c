@@ -4,7 +4,7 @@
 int main()
 {
     int x;
-    string s = " ";
+    char s = " ";
     for(x = 'A'; x <= 'Z'; x++)
     {
         putchar(tolower(x));
