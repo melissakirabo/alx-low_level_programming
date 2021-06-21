@@ -4,11 +4,10 @@
 int main()
 {
     int x;
-    int lower_x;
     for(x = 'A'; x <= 'Z'; x++)
     {
-        lower_x = tolower(x);
-        putchar(lower_x);
+        putchar(tolower(x));
+        putchar("");
     }
     return 0;
 }
