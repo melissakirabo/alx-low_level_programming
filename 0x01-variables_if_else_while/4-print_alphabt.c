@@ -5,13 +5,13 @@ int main()
 {
     int x;     
     for(x = 'A'; x <= 'Z'; x++)
-    {
-        putchar(tolower(x));   
+    {         
         
         if (x == 'E' || x == 'Q') 
         {
             continue;
         }
+        putchar(tolower(x)); 
     }
     putchar('\n');
     return 0;
