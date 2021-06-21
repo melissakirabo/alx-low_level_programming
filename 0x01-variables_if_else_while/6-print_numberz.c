@@ -3,10 +3,10 @@
 
 int main()
 {
-    char x;     
+    int x;     
     for(x = 0; x < 10; x++)
     {         
-        putchar('x'); 
+        printf("%d",x); 
     }
     putchar('\n');
     return 0;
