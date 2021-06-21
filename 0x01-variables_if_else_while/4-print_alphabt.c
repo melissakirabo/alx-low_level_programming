@@ -10,6 +10,7 @@ int main()
         
         if (x == 'E' || x == 'Q') 
         {
+            continue;
         }
     }
     putchar('\n');
