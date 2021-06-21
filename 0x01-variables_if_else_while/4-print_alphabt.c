@@ -8,7 +8,7 @@ int main()
     {
         putchar(tolower(x));   
         
-        if (x = 'E' || X = 'Q') 
+        if (x = 'E' || x = 'Q') 
         {
         }
     }
