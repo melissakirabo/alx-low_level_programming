@@ -10,7 +10,7 @@ int main()
     }
     for(x = 'A'; x <= 'F'; x++)
     {
-        putchar(toupper(x));
+        putchar(tolower(x));
     }
     putchar('\n');
     return 0;
