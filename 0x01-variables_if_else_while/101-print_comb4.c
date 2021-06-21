@@ -1,8 +1,9 @@
 /*
  * File: 101-print_comb4.c
  * Auth: Melissa Kirabo
-
+*/
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - Prints all possible combinations of three different digits,
