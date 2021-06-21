@@ -4,7 +4,7 @@
 int main()
 {
     int x;     
-    for(x = 'Z'; x <= 'A'; x--)
+    for(x = 'Z'; x >= 'A'; x--)
     {
         putchar(tolower(x));   
     }
