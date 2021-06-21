@@ -3,12 +3,11 @@
 
 int main()
 {
-    int x;
-    char s = ' ';    
+    int x;     
     for(x = 'A'; x <= 'Z'; x++)
     {
         putchar(tolower(x));   
     }
-    putchar(s);
+    putchar('\n');
     return 0;
 }
