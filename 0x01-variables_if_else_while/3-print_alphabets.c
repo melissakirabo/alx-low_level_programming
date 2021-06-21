@@ -2,11 +2,12 @@
 
 int main()
 {
-    for(int x = 'A'; x <= 'Z'; x++)
+    int x;
+    for(x = 'A'; x <= 'Z'; x++)
     {
-        putchar(tolower(x))
-        putchar(toupper(x))
+        putchar(tolower(x));
+        putchar(toupper(x));
     }
-    putchar('\n')
+    putchar('\n');
     return 0;
 }
