@@ -12,7 +12,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	
-	int last = n%10;
+	int last = int (n%10);
 	
 	if (last > 5 )
 	{
