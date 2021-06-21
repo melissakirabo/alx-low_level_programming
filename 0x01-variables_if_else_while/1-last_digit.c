@@ -3,10 +3,11 @@
 /* more headers goes there */
 #include <stdio.h>
 #include <math.h>
-/* this is the main function of the program*/
-int main(void)
+
+int main(void) /* this is the main function of the program*/
 {
 	int n, last;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */	
@@ -22,6 +23,6 @@ int main(void)
 	else if (last < 6 && last != 0 )
 	{
 		printf ("Last digit of %d is %d and is less than 6 and not 0\n", n, last); 
-	} 	
+	}
 	return (0);
 }
