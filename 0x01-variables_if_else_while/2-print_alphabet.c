@@ -7,8 +7,8 @@ int main()
     char s = ' ';
     for(x = 'A'; x <= 'Z'; x++)
     {
-        putchar(tolower(x));
-        putchar(s);
+        putchar(tolower(x));   
     }
+    putchar(s);
     return 0;
 }
